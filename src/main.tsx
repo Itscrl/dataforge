@@ -10,6 +10,7 @@ import {runSQL,type RunResult} from './lib/runner';
 import type {Table} from './lib/grading';
 import './style.css';
 import './upgrades.css';
+import './research.css';
 import {CloudSync} from './views/CloudSync';
 import {Tutor} from './views/Tutor';
 import {PythonLab} from './views/PythonLab';
