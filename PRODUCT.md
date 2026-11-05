@@ -25,9 +25,9 @@ Choose a daily mission or a skill gap → answer a question or execute SQL → i
 
 ## Trust and boundaries
 
-Progress is saved in this browser on this device. Export/import provides a portable backup; Google Drive snapshot synchronization requires OAuth setup; no app account service is supplied. Offline access depends on assets and engines having been cached. External resource pages require their own network access.
+Progress is saved in this browser on this device. Export/import provides a portable backup; authenticated account synchronization uses the hosting platform identity and per-user D1 snapshots with revision conflict checks. Google Drive remains an optional OAuth backup. PDFs stay device-local. Offline access depends on assets and engines having been cached. External resource pages require their own network access.
 
-The Llama tutor retrieves local guide and imported PDF/text excerpts, then can generate cited answers through a configured local Ollama or compatible hosted service. Browser Python executes through Pyodide; it is trusted-user practice, not a hostile-code sandbox. Distributed labs supply local Docker instructions; remote runtimes are not provisioned. Drive OAuth and Llama runtime setup are required. Incident exercises are simulations, not live infrastructure access.
+The Llama tutor retrieves local guide and imported PDF/text excerpts, then can generate structured cited claims through a configured local Ollama or compatible hosted service. Exact source quotes are checked, and physical PDF pages can be rendered for verification. BM25 retrieval runs in a cancellable browser worker. Browser Python executes through Pyodide; it is trusted-user practice, not a hostile-code sandbox. Distributed labs supply local Docker instructions; remote runtimes are not provisioned. Drive OAuth and Llama runtime setup are required. Incident exercises are simulations, not live infrastructure access.
 
 XP, streaks, and completion markers support consistent learning. They must remain tied to recorded activity, with assisted attempts and unique completion rewards handled by the progress model. Never invent leaderboard participants, learner counts, testimonials, or mastery claims.
 

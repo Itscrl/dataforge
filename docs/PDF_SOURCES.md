@@ -1,3 +1,7 @@
+## Verified ingestion update
+
+Two downloads succeeded and are bundled unchanged: PostgreSQL18 manual (15,864,875bytes) and Computer Networks6.1 (22,254,526bytes). Their fetched hashes and attribution are in public/pdfs/manifest.json and ATTRIBUTION.txt. Four other catalog downloads failed (403/network) and remain external links, not indexed sources. The browser indexes only the selected page range and records actual page counts and hashes.
+
 # Open PDF source catalog
 
 Researched: 2026-11-06 (Asia/Manila). This catalog adds six primary references relevant to database design, SQL operations, network failure reasoning, shell pipelines, dependency automation and text ingestion. The app manifest is `src/content/pdf-library.ts`. Entries contain original descriptions and source links; this research task did not download or bundle the books.

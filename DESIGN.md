@@ -1,6 +1,6 @@
 ---
 name: Dataforge
-description: A light engineering practice workspace with a framed working sheet.
+description: A framed engineering practice workspace with light and neutral charcoal themes.
 colors:
   ground: "#eef2f1"
   surface: "#fff"
@@ -17,7 +17,18 @@ colors:
   incident: "#faf8f3"
   incident-border: "#eae6db"
   navigation-active: "#dde5e1"
-  focus: "#47877d"
+  focus: "#5f9cbd"
+  dark-ground: "#111315"
+  dark-surface: "#191c1f"
+  dark-raised: "#22262a"
+  dark-text: "#ebedf0"
+  dark-muted: "#abb1b9"
+  dark-border: "#353b42"
+  dark-accent: "#a5c6dc"
+  dark-positive: "#a3d3b2"
+  dark-negative: "#edb2a8"
+  dark-action: "#e1e8ed"
+  dark-action-text: "#172028"
 typography:
   headline:
     fontFamily: "IBM Plex Sans, sans-serif"
@@ -84,7 +95,7 @@ components:
 
 ## Overview
 
-The selected direction is the **light workshop notebook**, implemented as a framed sheet (seed 710236810). A green-grey navigation rail and top bar form an L around a white working surface. Calm typography and subtle dividers support sustained reading, SQL practice, and evidence inspection.
+The selected direction is the **workshop notebook**, implemented as a framed sheet (seed 710236810). The light theme retains its green-grey frame and white working surface. The dark theme uses neutral charcoal grounds and quiet blue source actions. Calm typography and subtle dividers support sustained reading, SQL practice, and evidence inspection.
 
 The interface is a personal tool with real progress data. Its signature is a connected pipeline learning map, supported by a softly tinted daily mission and a warm incident panel. Avoid turning these working surfaces into promotional hero sections.
 
@@ -92,7 +103,9 @@ Key characteristics: restrained color, clear task hierarchy, flat surfaces, comp
 
 ## Colors
 
-The palette combines cool green-grey structure with forest-green actions and restrained teal technical details. The frontmatter preserves the CSS values; `src/style.css` is the implementation source.
+The light palette combines cool green-grey structure with forest-green actions and restrained teal details. The final dark palette uses neutral charcoal rather than a green tint. The frontmatter preserves actual values; `src/style.css` defines the light base and `src/research.css` owns final dark overrides and research controls after `src/upgrades.css`.
+
+In dark mode, `dark-ground` (#111315) frames `dark-surface` (#191c1f) and `dark-raised` (#22262a). Primary text is #ebedf0, supporting text #abb1b9, dividers #353b42 and source/action accents #a5c6dc. Primary buttons use #e1e8ed with #172028 ink and white hover. Focus outlines use #5f9cbd in both themes. Success #a3d3b2 and error #edb2a8 remain paired with explanatory text. Preserve the white original PDF page canvas so the retained publisher page stays readable.
 
 - `ground` surrounds the sheet and fills desktop navigation and the mobile top bar.
 - `surface`, `raised`, and `border` establish working surfaces and boundaries.
@@ -135,7 +148,7 @@ Panels use 12px corners; tracks use 10px; controls use 6px; navigation rows use 
 
 **Buttons.** Primary buttons use the dark action fill, white type, 10px 17px padding, and a 42px minimum height. Hover darkens the visual emphasis with `action-hover`. Secondary buttons are white with a thin border. Text actions use green text and underline on hover. Disabled buttons use 0.52 opacity and a not-allowed cursor. SQL controls deliberately compact at narrow widths; do not assume every control is 44px tall.
 
-**Focus.** Buttons, links, inputs, selects, textareas, and summaries share a visible 3px focus outline with a 3px offset. Preserve it on every interactive extension. The skip link becomes visible when focused.
+**Focus.** Buttons, links, inputs, selects, textareas, and summaries share a visible 3px #5f9cbd focus outline with a 3px offset. Preserve it on every interactive extension. The skip link becomes visible when focused.
 
 **Fields.** Inputs and selects are white, bordered, 6px rounded, and at least 42px high. Search fields pair an icon with a borderless internal input. Mobile search rows expand to full width. SQL uses a mono textarea with nearby run, submit, reset, hint, and solution controls; result tabs and tables remain inspectable below it.
 
@@ -147,9 +160,13 @@ Panels use 12px corners; tracks use 10px; controls use 6px; navigation rows use 
 
 **Learning feedback.** Explanations, result differences, assistance markers, and source links support learning from an attempt. Use semantic text and icons with state colors. Empty, loading, unavailable-engine, offline, and storage-error states must be explicit.
 
+**Research tutor.** Ask & verify, Source library and Connection use a quiet underlined tab row. The bordered composer leads into vertically separated source passages. At desktop widths a 270px context column becomes a source-proof panel when inspecting evidence; proof stacks at 1200px and the context stacks at 980px. At 760px the primary composer action spans the row. Answer copy is 16px/1.8 on desktop and 15px on phones. Citation buttons open the source excerpt and actual physical PDF page, with hash/version metadata nearby. Distinguish matching quote text from semantic correctness in the provenance copy.
+
+**Account sync.** Explicit save/load actions precede a visible merge/use/keep snapshot review. Keep conflict and offline states legible in both themes. PDF documents remain local; optional Google Drive controls stay separate from account synchronization.
+
 ## Do's and Don'ts
 
-- **Do** preserve the green-grey frame, white working sheet, and calm reading hierarchy.
+- **Do** preserve the light framed sheet, neutral charcoal dark surfaces, and calm reading hierarchy.
 - **Do** derive progress and completion displays from stored activity.
 - **Do** distinguish executable database engines from reference curricula.
 - **Do** keep feedback, schema, and explanations close to the active exercise.
@@ -159,6 +176,4 @@ Panels use 12px corners; tracks use 10px; controls use 6px; navigation rows use 
 - **Don't** remove focus rings, rely on color alone, or make secondary 11px metadata the model for main lesson text.
 - **Don't** add invented learner statistics, certification claims, or gamification disconnected from practice.
 
-## Version 0.2 themes and feedback
-
-The optional dark theme lives in src/upgrades.css: ground #16201c, surface #1e2923, raised #26352c, text #e2ebe3, muted #acbcb0, border #3b4b40, accent #94c8ac. System theme follows prefers-color-scheme; explicit light/dark choices persist. Background/color transitions take220ms; answer feedback uses a200ms clip reveal. Reduced-motion disables transitions/animations. Navigation is scrollable with the expanded tools. Dark mobile nav ink #b5c8bb, active #c3efd2. New components include evidence excerpts, resource status selects, certification checklists, Python editor, source-linked track actions and a manual snapshot conflict review.
+System theme follows `prefers-color-scheme`; explicit light/dark choices persist. Background/color transitions take 220ms; answer feedback uses a 200ms clip reveal. Reduced motion disables transitions/animations. Navigation remains scrollable with expanded tools. Dark mobile navigation uses muted #abb1b9 and active #e0ebf2. Browser verification keeps the existing home/workbench/research screenshot scope and covers light/dark themes at desktop, tablet and phone widths; no additional marketing surface is implied.

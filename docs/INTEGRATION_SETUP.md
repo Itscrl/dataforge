@@ -1,3 +1,11 @@
+# Current implementation note — version0.3
+
+Account cloud sync is now implemented through authenticated hosting identity and a per-user D1 record. It needs no Google client. Save/load explicitly; revision mismatches return409 and require merge/review. Google Drive below remains an optional separate connection. Source PDFs are device-local; two unchanged licensed references are served for on-demand import.
+
+PDF extraction now accepts files up to35MB and bounded ranges up to500 pages per import, preserving page boundaries, PDF bytes and SHA-256. Reimporting another range extends the same document. BM25 retrieval runs in a cancellable worker. Generated claims require exact quotes checked against evidence before return; page proof uses the original PDF snapshot. See RAG_ARCHITECTURE.md and RAG_OPERATIONS.md for the authoritative pipeline and deployment.
+
+The following0.2 setup history remains useful for provider installation; older extraction limits and lexical substring details are superseded above.
+
 # Connected learning setup
 
 Implemented on 2026-11-06. Desktop installers and Android packages are deliberately deferred until the owner approves the experience. The browser app remains usable on both devices.

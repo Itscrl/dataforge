@@ -1,3 +1,7 @@
+## Version0.3 research and account sync
+
+The neutral-charcoal research workspace preserves PDF page, hash and quote provenance; a cancellable BM25 worker retrieves before structured generation. Account-based cloud snapshots use authenticated Sites identity and D1 with stale-write protection. Google Drive remains optional. Read [RAG architecture](docs/RAG_ARCHITECTURE.md), [operations](docs/RAG_OPERATIONS.md) and [verification](docs/RESEARCH_QA.md). Real Llama inference still requires an installed/configured model.
+
 ## Version 0.2 additions
 
 Dark/light/system themes, learning status labels, randomized/revised question options, recall/design/multi-select/sequencing practice,15 credential paths,3 executable Python exercises,22 tracks and13 project briefs (5 detailed career guides). Native desktop/Android packages remain deferred until user approval. See [integration setup](docs/INTEGRATION_SETUP.md) and [upgrade QA](docs/UPGRADE_QA.md).
@@ -39,6 +43,7 @@ node node_modules/typescript/bin/tsc -b
 node node_modules/vitest/vitest.mjs run
 node node_modules/vite/bin/vite.js build
 node scripts/offline.mjs
+node scripts/build-cloud.mjs
 node node_modules/vite/bin/vite.js preview --host 127.0.0.1 --port 4173
 ```
 
@@ -73,11 +78,11 @@ Keep content IDs stable across updates or migrate saved progress explicitly. Run
 
 Read [the research](docs/RESEARCH.md), [system architecture](docs/ARCHITECTURE.md), [design system](DESIGN.md), [product contract](PRODUCT.md), and [QA evidence](QA_REPORT.md).
 
-The planned server architecture covers authenticated progress sync, a cited RAG tutor, versioned ingestion, retrieval evaluation, provenance and permissions, isolated Python/SQL runners, observability, and production rollout. The Llama tutor now retrieves local source excerpts and imported PDF/text before calling a configured companion server. Google Drive manual snapshots are implemented and require a public OAuth client ID and user consent. Python execution uses Pyodide in a browser worker; distributed practice supplies a local Kafka Compose recipe. Read docs/INTEGRATION_SETUP.md for exact setup and verification boundaries. No provider API key belongs in the browser. Real Llama inference, two-device Drive sync and Docker startup remain unverified until external setup.
+The system architecture covers authenticated progress sync, a cited RAG tutor, versioned ingestion, retrieval evaluation, provenance and permissions, isolated Python/SQL runners, observability, and production rollout. The Llama tutor now retrieves local source excerpts and imported PDF/text before calling a configured companion server. Google Drive manual snapshots are implemented and require a public OAuth client ID and user consent. Python execution uses Pyodide in a browser worker; distributed practice supplies a local Kafka Compose recipe. Read docs/INTEGRATION_SETUP.md for exact setup and verification boundaries. No provider API key belongs in the browser. Real Llama inference, two-device Drive sync and Docker startup remain unverified until external setup.
 
 ## Deployment and rollback
 
-`.openai/hosting.json` binds this project to its existing private Sites project. Preserve the project ID and audience. Build and verify locally, synchronize the exact source through the Sites source helper, package `dist` plus the hosting manifest, then deploy that saved version. Do not create a second Site for updates. Roll back by deploying a previously successful saved version, preserving browser-local progress schema compatibility.
+`.openai/hosting.json` binds this project to its existing private Sites project. Preserve the project ID and audience. Build and verify locally, synchronize the exact source through the Sites source helper, package the Worker in `dist/server`, client assets in `dist/client`, hosting manifest and generated migrations, then deploy that saved version. Do not create a second Site for updates. Roll back by deploying a previously successful saved version, preserving browser-local progress schema compatibility.
 
 The bundled PostgreSQL build emits upstream Vite warnings concerning conditional Node filesystem branches and Emscripten eval. The browser path was tested in production mode; Node filesystem adapters are not invoked. This is not an audited hostile multi-user execution service. Workers have a 30-second parent deadline and 2,000 returned-row cap; mobile memory exhaustion remains possible for malicious queries.
 

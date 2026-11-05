@@ -1,12 +1,12 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-05T00:00:00Z",
+  "generatedAt": "2026-11-06T00:00:00Z",
   "title": "Design System: Dataforge",
   "extensions": {
     "colorMeta": {
       "accent": {
         "role": "primary",
-        "displayName": "Restrained teal"
+        "displayName": "Restrained teal in light; quiet blue in dark"
       },
       "action": {
         "role": "primary",
@@ -14,11 +14,11 @@
       },
       "ground": {
         "role": "neutral",
-        "displayName": "Green-grey frame"
+        "displayName": "Green-grey light frame; neutral charcoal dark frame"
       },
       "surface": {
         "role": "neutral",
-        "displayName": "White working sheet"
+        "displayName": "White light sheet; charcoal dark sheet"
       },
       "incident": {
         "role": "neutral",
@@ -80,13 +80,18 @@
       }
     ],
     "darkTheme": {
-      "ground": "#16201c",
-      "surface": "#1e2923",
-      "raised": "#26352c",
-      "text": "#e2ebe3",
-      "muted": "#acbcb0",
-      "border": "#3b4b40",
-      "accent": "#94c8ac"
+      "ground": "#111315",
+      "surface": "#191c1f",
+      "raised": "#22262a",
+      "text": "#ebedf0",
+      "muted": "#abb1b9",
+      "border": "#353b42",
+      "accent": "#a5c6dc",
+      "positive": "#a3d3b2",
+      "negative": "#edb2a8",
+      "action": "#e1e8ed",
+      "actionText": "#172028",
+      "focus": "#5f9cbd"
     }
   },
   "components": [
@@ -96,14 +101,14 @@
       "refersTo": "button-primary",
       "description": "Main action for a practice session or submission.",
       "html": "<button class=\"ds-primary\">Start today's session</button>",
-      "css": ".ds-primary{display:inline-flex;align-items:center;justify-content:center;min-height:42px;padding:10px 17px;border:0;border-radius:6px;background:#213d32;color:#fff;font-family:'IBM Plex Sans',sans-serif;font-size:13px;font-weight:500;cursor:pointer;transition:background .15s}.ds-primary:hover:not(:disabled){background:#325647}.ds-primary:focus-visible{outline:3px solid #47877d;outline-offset:3px}.ds-primary:disabled{opacity:.52;cursor:not-allowed}@media(prefers-reduced-motion:reduce){.ds-primary{transition:none}}"
+      "css": ".ds-primary{display:inline-flex;align-items:center;justify-content:center;min-height:42px;padding:10px 17px;border:0;border-radius:6px;background:#213d32;color:#fff;font-family:'IBM Plex Sans',sans-serif;font-size:13px;font-weight:500;cursor:pointer;transition:background .15s}.ds-primary:hover:not(:disabled){background:#325647}.ds-primary:focus-visible{outline:3px solid #5f9cbd;outline-offset:3px}.ds-primary:disabled{opacity:.52;cursor:not-allowed}@media(prefers-reduced-motion:reduce){.ds-primary{transition:none}}"
     },
     {
       "name": "Search Field",
       "kind": "input",
       "description": "A bordered, quiet control for filtering learning content.",
       "html": "<label class=\"ds-search\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" aria-hidden=\"true\"><circle cx=\"11\" cy=\"11\" r=\"8\"/><path d=\"m21 21-4.3-4.3\"/></svg><input aria-label=\"Find SQL challenges\" placeholder=\"Find a challenge\"/></label>",
-      "css": ".ds-search{display:flex;gap:10px;align-items:center;min-height:42px;padding:0 12px;border:1px solid #ccd7cf;border-radius:6px;background:#fff;color:var(--muted,#606c68)}.ds-search svg{flex-shrink:0}.ds-search input{width:100%;min-width:0;border:0;background:none;padding:8px 0;color:var(--text,#182724);font:14px 'IBM Plex Sans',sans-serif}.ds-search input:focus-visible{outline:3px solid #47877d;outline-offset:3px}"
+      "css": ".ds-search{display:flex;gap:10px;align-items:center;min-height:42px;padding:0 12px;border:1px solid #ccd7cf;border-radius:6px;background:#fff;color:var(--muted,#606c68)}.ds-search svg{flex-shrink:0}.ds-search input{width:100%;min-width:0;border:0;background:none;padding:8px 0;color:var(--text,#182724);font:14px 'IBM Plex Sans',sans-serif}.ds-search input:focus-visible{outline:3px solid #5f9cbd;outline-offset:3px}"
     },
     {
       "name": "Daily Mission",
@@ -115,14 +120,14 @@
     }
   ],
   "narrative": {
-    "northStar": "Light workshop notebook",
-    "overview": "A green-grey navigation frame surrounds a white working sheet. Flat surfaces, compact technical metadata, readable exercises, and an honest record of personal activity support daily engineering practice.",
+    "northStar": "Workshop notebook",
+    "overview": "A framed working sheet supports engineering practice and inspectable evidence. The light green-grey frame complements a neutral charcoal dark theme with restrained blue source actions. Flat surfaces, readable exercises and honest recorded activity remain central.",
     "keyCharacteristics": [
       "Framed working sheet, seed 710236810",
       "IBM Plex Sans and IBM Plex Mono",
       "Pipeline-shaped learning map",
-      "Restrained forest actions and teal details",
-      "Warm incident entry panel",
+      "Light green-grey and neutral charcoal themes",
+      "Inspectable physical PDF pages and matching source quotes",
       "Flat tonal layering without shadows"
     ],
     "rules": [
@@ -145,7 +150,8 @@
     ],
     "donts": [
       "Do not add decorative gradients or glass effects.",
-      "Do not imply cloud synchronization or generative retrieval exists.",
+      "Do not describe matching source quotes as proof of semantic correctness.",
+      "Do not imply account snapshots synchronize PDF documents or that real Llama inference has been verified.",
       "Do not invent learner counts or proficiency claims.",
       "Do not rely on feedback color alone."
     ]
