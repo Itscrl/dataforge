@@ -1,7 +1,7 @@
 import {readdir,writeFile,readFile} from 'node:fs/promises';
 import {createHash} from 'node:crypto';
 async function files(dir){const out=[];for(const f of await readdir(dir,{withFileTypes:true})){if(f.isDirectory())out.push(...await files(`${dir}/${f.name}`));else out.push(`${dir}/${f.name}`);}return out;}
-const all=(await files('dist')).filter(f=>!f.endsWith('/sw.js'));const digest=createHash('sha256');for(const file of all)digest.update(await readFile(file));const version=digest.digest('hex').slice(0,12);const paths=all.map(f=>'/'+f.slice(5));
+const all=(await files('dist')).filter(f=>!f.endsWith('/sw.js'));const digest=createHash('sha256');for(const file of all)digest.update(await readFile(file));const version=digest.digest('hex').slice(0,12);const paths=all.filter(f=>!f.endsWith('.pdf')).map(f=>'/'+f.slice(5));
 await writeFile('dist/sw.js',`const CACHE='dataforge-${version}';const ASSETS=${JSON.stringify(['/',...paths])};
 self.addEventListener('install',event=>{event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(ASSETS)));});
 self.addEventListener('activate',event=>{event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k.startsWith('dataforge-')&&k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim()));});
