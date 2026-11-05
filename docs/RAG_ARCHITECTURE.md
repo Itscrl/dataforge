@@ -1,6 +1,6 @@
 # Research tutor and account architecture
 
-Implementation record: 2026-11-06. Sources are the checked-in modules named below. Hosted account deployment is pending signed-in production verification; Llama is not installed in the development environment. Passing mock-provider tests does not establish real-model inference quality or availability.
+Implementation record: 2026-11-06. Sources are the checked-in modules named below. Hosted account save/load, cross-tab persistence and stale-write rejection were verified in the signed-in deployed app (see RESEARCH_QA.md); Llama is not installed in the development environment. Passing mock-provider tests does not establish real-model inference quality or availability.
 
 ## System boundaries
 
