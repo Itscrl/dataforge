@@ -5,15 +5,17 @@
   "type": "module",
   "scripts": {
     "dev": "vite --host 0.0.0.0",
-    "build": "tsc -b && vite build && node scripts/offline.mjs",
+    "build": "tsc -b && vite build && node scripts/offline.mjs && node scripts/build-cloud.mjs",
     "preview": "vite preview --host 0.0.0.0",
     "test": "vitest run",
-    "tutor": "node --env-file=.env server/tutor.mjs"
+    "tutor": "node --env-file=.env server/tutor.mjs",
+    "db:generate": "drizzle-kit generate"
   },
   "dependencies": {
     "@electric-sql/pglite": "^0.5.15",
     "@fontsource/ibm-plex-mono": "^5.2.0",
     "@fontsource/ibm-plex-sans": "^5.2.0",
+    "drizzle-orm": "^0.45.4",
     "lucide-react": "^0.468.0",
     "pdfjs-dist": "^6.5.438",
     "react": "^19.1.0",
@@ -27,6 +29,7 @@
     "@types/react-dom": "^19.1.0",
     "@types/sql.js": "^1.4.9",
     "@vitejs/plugin-react": "^4.4.0",
+    "drizzle-kit": "^0.31.11",
     "typescript": "^5.8.0",
     "vite": "^6.3.0",
     "vitest": "^3.2.0"
