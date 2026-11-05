@@ -1,0 +1,24 @@
+[
+  {
+    "id": "postgresql-18-manual",
+    "path": "/pdfs/postgresql-18-manual.pdf",
+    "bytes": 15864875,
+    "sha256": "9c6af8d2c8f0eda1b05e510bd8028f752162d2f5ce2db405bbf197336ce638d2",
+    "source": "https://www.postgresql.org/files/documentation/pdf/18/postgresql-18-A4.pdf",
+    "license": "PostgreSQL License (includes documentation)",
+    "licenseUrl": "https://www.postgresql.org/about/licence/",
+    "authors": "The PostgreSQL Global Development Group",
+    "fetched": "2026-11-05T21:09:54.831Z"
+  },
+  {
+    "id": "computer-networks-6-1",
+    "path": "/pdfs/computer-networks-6-1.pdf",
+    "bytes": 22254526,
+    "sha256": "e4ddb12a63f9ecebcc3504a0c3e8d9d5d4b89f1ffa600011f15efef5766ff90f",
+    "source": "https://github.com/SystemsApproach/book/releases/download/v6.1/book.pdf",
+    "license": "CC BY 4.0; preserve required source attribution",
+    "licenseUrl": "https://github.com/SystemsApproach/book/blob/master/LICENSE",
+    "authors": "Larry Peterson and Bruce Davie",
+    "fetched": "2026-11-05T21:09:58.659Z"
+  }
+]
