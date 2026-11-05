@@ -16,6 +16,7 @@ This establishes live authenticated save/load and stale-write protection in two 
 - A real two-page PDF fixture was imported, persisted in IndexedDB, retrieved on physical page2, and rendered from its original bytes beside the citation. Generated-answer UI was tested with an explicitly mocked structured response validated against that excerpt. Screenshot rendering waits for the actual PDF canvas to finish.
 - BM25 runs in a cancellable20-second worker. Context is bounded to five retrieved excerpts, with at most two from one document.
 - The six-source catalog distinguishes the two bundled unchanged primary PDFs from four external references whose downloads failed. The app never labels a catalog link as indexed. Live import of the PostgreSQL reference successfully indexed pages1–100 of3156 physical pages in the signed-in browser. Page range and SHA-256 bind each indexed excerpt to its source snapshot.
+- The deployed browser also indexed pages1–100 of489 in *Computer Networks: A Systems Approach*, open release6.1. A live PDF-only search for transactions returned PostgreSQL physical page57; opening its source proof rendered that actual retained page (`data-ready=true`) beside the indexed transaction excerpt and SHA-256 prefix `9c6af8d2c8f0eda1`. This production check used the bundled publisher PDF, in addition to the local two-page fixture above.
 
 ## Visual and browser checks — verified
 
