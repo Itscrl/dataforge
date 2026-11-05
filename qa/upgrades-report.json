@@ -1,0 +1,13 @@
+{
+  "checks": [
+    "Dark theme and resource state persist",
+    "Credential cost and prep filters",
+    "Multi-select and sequence exercises",
+    "Evidence retrieval without a model",
+    "Every track has learning links",
+    "Career projects expose build and acceptance guides",
+    "Actual Python assertions execute in browser"
+  ],
+  "errors": [],
+  "violations": []
+}

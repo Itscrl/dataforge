@@ -1,4 +1,4 @@
-export interface Attempt {id:string;item:string;track:string;kind:'quiz'|'sql'|'incident';correct:boolean;at:string;assisted:boolean;dialect?:string}
+export interface Attempt {id:string;item:string;track:string;kind:'quiz'|'sql'|'incident'|'reflection';correct:boolean;at:string;assisted:boolean;dialect?:string}
 export interface Review {due:string;interval:number;correct:number;wrong:number}
 export interface Progress {version:1;name:string;goal:number;attempts:Attempt[];reviews:Record<string,Review>;bookmarks:string[];projectSteps:string[];notes:Record<string,string>;drafts:Record<string,string>}
 export const fresh=():Progress=>({version:1,name:'Engineer',goal:3,attempts:[],reviews:{},bookmarks:[],projectSteps:[],notes:{},drafts:{}});
@@ -7,7 +7,7 @@ export function validateProgress(value:unknown):Progress {
  if(!value||typeof value!=='object')throw new Error('Not a Dataforge backup.');
  const p=value as Progress;
  if(p.version!==1||typeof p.name!=='string'||p.name.length>60||!Number.isInteger(p.goal)||p.goal<1||p.goal>20||!Array.isArray(p.attempts)||p.attempts.length>50000)throw new Error('Unsupported or invalid backup format.');
- for(const a of p.attempts)if(!a||typeof a.id!=='string'||typeof a.item!=='string'||typeof a.track!=='string'||!['quiz','sql','incident'].includes(a.kind)||typeof a.correct!=='boolean'||typeof a.assisted!=='boolean'||typeof a.at!=='string'||!Number.isFinite(Date.parse(a.at)))throw new Error('Invalid attempt in backup.');
+ for(const a of p.attempts)if(!a||typeof a.id!=='string'||typeof a.item!=='string'||typeof a.track!=='string'||!['quiz','sql','incident','reflection'].includes(a.kind)||typeof a.correct!=='boolean'||typeof a.assisted!=='boolean'||typeof a.at!=='string'||!Number.isFinite(Date.parse(a.at)))throw new Error('Invalid attempt in backup.');
  for(const key of ['bookmarks','projectSteps'] as const)if(!Array.isArray(p[key])||!p[key].every(x=>typeof x==='string'&&x.length<200))throw new Error('Invalid saved list.');
  for(const key of ['notes','drafts'] as const)if(!p[key]||typeof p[key]!=='object'||Array.isArray(p[key])||Object.entries(p[key]).some(([k,v])=>['__proto__','constructor','prototype'].includes(k)||typeof v!=='string'||v.length>20000))throw new Error('Invalid saved text.');
  if(!p.reviews||typeof p.reviews!=='object'||Array.isArray(p.reviews))throw new Error('Invalid review schedule.');
@@ -15,6 +15,7 @@ export function validateProgress(value:unknown):Progress {
  return p;
 }
 export function record(p:Progress,entry:Omit<Attempt,'id'|'at'>,now=new Date()):Progress{
+ if(entry.kind==='reflection')return {...p,attempts:[...p.attempts,{...entry,id:crypto.randomUUID(),at:now.toISOString()}]};
  const previous=p.reviews[entry.item]||{interval:0,correct:0,wrong:0,due:now.toISOString()};
  const interval=entry.correct&&!entry.assisted?Math.min(previous.interval?previous.interval*2:1,30):0;
  const due=new Date(now.getTime()+(interval?interval*86400000:600000));

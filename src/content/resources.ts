@@ -1,3 +1,4 @@
+import {automations} from './expansion';
 /**
  * Curated primary-source reading library, reviewed 2026-11-05.
  * These are links with original summaries, not redistributed copies of sources.
@@ -401,3 +402,7 @@ export const resources: LearningResource[] = [
     description: 'Learn vector storage, similarity operators, exact search, and approximate indexes. Evaluate retrieval quality and authorization filters before using search in a RAG system.',
   },
 ];
+
+resources.push(...automations);
+
+resources.push({id:'sql-postgres-pdf18',title:'PostgreSQL 18 complete manual (PDF)',track:'sql',level:'Advanced',kind:'Documentation',url:'https://www.postgresql.org/files/documentation/pdf/18/postgresql-18-A4.pdf',description:'Official downloadable versioned reference. Read tutorial, query, transaction and index chapters selectively. Large PDF; engine behavior must be matched to your actual PostgreSQL version.'},{id:'architecture-duckdb-wasm-paper',title:'DuckDB-Wasm architecture paper (PDF)',track:'architecture',level:'Advanced',kind:'Documentation',url:'https://duckdb.org/pdf/VLDB2022-kohn-duckdb-wasm.pdf',description:'Original four-page systems paper on analytical SQL in browser workers. Read the architecture and filesystem tradeoffs, then compare them with a server-side execution design.'});

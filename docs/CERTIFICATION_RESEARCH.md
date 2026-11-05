@@ -1,0 +1,34 @@
+# Certification and credential research
+
+Reviewed 2026-11-06. The data file is `src/content/certifications.ts`. Preparation checklists are original Dataforge recommendations; they are not copied exam questions, official prerequisites, or a guarantee of passing or employment. No exam dumps are linked. Named credentials do not imply issuer endorsement of Dataforge.
+
+## Free credentials with primary evidence
+
+- **HackerRank SQL Basic, Intermediate, Advanced, and Python Basic** are skills assessments. The issuer explicitly describes its certifications as free and timed in its [certification introduction](https://help.hackerrank.com/articles/2563639100-introduction-to-certification). The individual pages establish their current scope: [SQL Basic](https://www.hackerrank.com/skills-verification/sql_basic), [SQL Intermediate](https://www.hackerrank.com/skills-verification/sql_intermediate), [SQL Advanced](https://www.hackerrank.com/skills-verification/sql_advanced), and [Python Basic](https://www.hackerrank.com/skills-verification/python_basic). These are narrow skill credentials, not comprehensive data engineering qualifications.
+- **CS50 SQL and CS50 Python** offer a free CS50 course certificate on meeting their coursework/project requirements. Optional verified edX certificates are separate paid products. Use the official [SQL certificate requirements](https://cs50.harvard.edu/sql/certificate/) and [Python certificate requirements](https://cs50.harvard.edu/python/certificate/). This catalog labels them course completion certificates rather than independent proctored professional exams.
+- **freeCodeCamp Relational Databases** now includes five certification projects and an exam. The issuer states the learning, exam and credential are free. Its current exam environment requires a laptop or desktop, so Dataforge must not suggest taking it on Android. See [the issuer’s certification announcement and FAQ](https://www.freecodecamp.org/news/freecodecamps-new-relational-databases-certification-is-now-live) and [the curriculum](https://www.freecodecamp.org/learn/relational-database).
+- **n8n Academy** currently offers free courses with completion certificates and badges. Its Foundations program combines courses. The separate timed certification is described as forthcoming, so it is not advertised here as an available free certification exam. See [n8n education](https://n8n.io/education/) and [current learning paths](https://docs.n8n.io/get-started/learning-paths). The old Level 1/Level 2 courses retired June 30, 2026 according to the [issuer’s retirement notice](https://support.n8n.io/article/how-to-retrieve-your-n8n-level-1-course-results-e7r69qh3tm95t85uze9j7b32). Do not use old forum badge instructions.
+
+Kaggle’s learning pages were reachable but returned no readable course details in this research environment. Although publisher-hosted completion credentials exist, the catalog does not assert a newly verified free certificate policy from unreadable pages. Kaggle can remain a learning resource without an unsupported credential claim.
+
+## Paid certifications and preparation
+
+| Credential | Primary issuer reference | Preparation emphasis |
+|---|---|---|
+| AWS Certified Data Engineer – Associate | [Exam overview, candidate profile and prep links](https://aws.amazon.com/certification/certified-data-engineer-associate/) | AWS ingestion, transformation, orchestration, modeling, lifecycle, quality and security. Build hands-on service experience. |
+| Google Cloud Professional Data Engineer | [Exam guide and preparation links](https://cloud.google.com/learn/certification/data-engineer) | System design, ingestion and processing, storage, analysis, operation and automation. The page distinguishes formal prerequisites from recommended experience. |
+| Microsoft Fabric Data Engineer Associate / DP-700 | [Credential and current practice links](https://learn.microsoft.com/en-us/credentials/certifications/fabric-data-engineer-associate/), [study guide](https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/dp-700) | Fabric administration, ingestion/transformation, monitoring/optimization; SQL, PySpark and KQL. Use current DP-700 content. |
+| Databricks Data Engineer Associate | [Current exam page](https://www.databricks.com/learn/certification/data-engineer-associate) | Current blueprint includes platform, ingestion, transformation, Lakeflow Jobs, CI/CD, troubleshooting, monitoring and governance. |
+| Databricks Data Engineer Professional | [Current exam page](https://www.databricks.com/learn/certification/data-engineer-professional) | Advanced production pipelines, reliability, operational controls and optimization; relevant hands-on work is recommended. |
+| SnowPro Core | [Issuer certification portal](https://community.snowflake.com/s/snowprocertifications) | Snowflake platform, loading, SQL, security, recovery, compute and performance. |
+| SnowPro Advanced: Data Engineer | [Issuer certification portal](https://community.snowflake.com/s/snowprocertifications), [issuer-issued credential description](https://achieve.snowflake.com/0b3e36f5-b584-4436-8f0f-3043126b0d36) | Data sourcing, continuous pipeline design, transformation/orchestration, scalable compute and performance. The issuer portal states Core is an advanced-exam prerequisite; check current eligibility before payment. |
+
+Microsoft’s page, updated October 19, 2026 at review time, links to the new AI Skills Navigator practice assessment and says the older Microsoft Learn practice assessment is no longer updated. The catalog sends learners through the current credential page rather than pinning an obsolete assessment deep link.
+
+No static fee amount is embedded in the app. Prices, taxes, currencies, eligibility, exam blueprints, renewal and delivery requirements can change. Free study documentation or a practice assessment does not imply a free professional certification. Cloud workspaces and labs can have separate usage charges. Verify the issuer’s registration page before paying.
+
+Snowflake’s former `learn.snowflake.com/en/certifications/...` deep links returned 404 during this review. The catalog deliberately uses the functioning issuer certification portal instead. This portal contains some historical wording, so current exam version, guide and eligibility must be reconfirmed through the issuer’s registration flow.
+
+## Suggested route
+
+Start with a free programming/database course and a small skills assessment. Build an independently explainable project with tests, reproducible setup, a measured performance experiment, a failure/recovery drill, and a runbook. Then choose a single paid platform certification that matches the tools in relevant job postings and your real practice environment. A credential complements project evidence; it does not replace engineering experience.

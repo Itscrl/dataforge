@@ -4,30 +4,90 @@
   "title": "Design System: Dataforge",
   "extensions": {
     "colorMeta": {
-      "accent": { "role": "primary", "displayName": "Restrained teal" },
-      "action": { "role": "primary", "displayName": "Forest action" },
-      "ground": { "role": "neutral", "displayName": "Green-grey frame" },
-      "surface": { "role": "neutral", "displayName": "White working sheet" },
-      "incident": { "role": "neutral", "displayName": "Warm incident paper" }
+      "accent": {
+        "role": "primary",
+        "displayName": "Restrained teal"
+      },
+      "action": {
+        "role": "primary",
+        "displayName": "Forest action"
+      },
+      "ground": {
+        "role": "neutral",
+        "displayName": "Green-grey frame"
+      },
+      "surface": {
+        "role": "neutral",
+        "displayName": "White working sheet"
+      },
+      "incident": {
+        "role": "neutral",
+        "displayName": "Warm incident paper"
+      }
     },
     "typographyMeta": {
-      "headline": { "displayName": "Personal home headline", "purpose": "36px desktop; 32px at 980px and 31px at 760px. Not a marketing display scale." },
-      "body": { "displayName": "Working copy", "purpose": "Base interface text. Long articles use larger type and more leading." },
-      "code": { "displayName": "Technical evidence", "purpose": "SQL, logs, and code examples." }
+      "headline": {
+        "displayName": "Personal home headline",
+        "purpose": "36px desktop; 32px at 980px and 31px at 760px. Not a marketing display scale."
+      },
+      "body": {
+        "displayName": "Working copy",
+        "purpose": "Base interface text. Long articles use larger type and more leading."
+      },
+      "code": {
+        "displayName": "Technical evidence",
+        "purpose": "SQL, logs, and code examples."
+      }
     },
     "shadows": [],
     "motion": [
-      { "name": "button-background", "value": "background .15s", "purpose": "Primary and secondary control hover feedback." },
-      { "name": "progress-width", "value": "width .3s", "purpose": "Progress bar updates." },
-      { "name": "loading", "value": "loading 1.1s ease-in-out infinite alternate", "purpose": "Loading indicator opacity and scale; disabled with reduced motion." }
+      {
+        "name": "button-background",
+        "value": "background .15s",
+        "purpose": "Primary and secondary control hover feedback."
+      },
+      {
+        "name": "progress-width",
+        "value": "width .3s",
+        "purpose": "Progress bar updates."
+      },
+      {
+        "name": "loading",
+        "value": "loading 1.1s ease-in-out infinite alternate",
+        "purpose": "Loading indicator opacity and scale; disabled with reduced motion."
+      }
     ],
     "breakpoints": [
-      { "name": "wide-min", "value": "1600px" },
-      { "name": "compact-desktop-max", "value": "1200px" },
-      { "name": "tablet-max", "value": "980px" },
-      { "name": "mobile-max", "value": "760px" },
-      { "name": "narrow-mobile-max", "value": "360px" }
-    ]
+      {
+        "name": "wide-min",
+        "value": "1600px"
+      },
+      {
+        "name": "compact-desktop-max",
+        "value": "1200px"
+      },
+      {
+        "name": "tablet-max",
+        "value": "980px"
+      },
+      {
+        "name": "mobile-max",
+        "value": "760px"
+      },
+      {
+        "name": "narrow-mobile-max",
+        "value": "360px"
+      }
+    ],
+    "darkTheme": {
+      "ground": "#16201c",
+      "surface": "#1e2923",
+      "raised": "#26352c",
+      "text": "#e2ebe3",
+      "muted": "#acbcb0",
+      "border": "#3b4b40",
+      "accent": "#94c8ac"
+    }
   },
   "components": [
     {
@@ -57,12 +117,37 @@
   "narrative": {
     "northStar": "Light workshop notebook",
     "overview": "A green-grey navigation frame surrounds a white working sheet. Flat surfaces, compact technical metadata, readable exercises, and an honest record of personal activity support daily engineering practice.",
-    "keyCharacteristics": ["Framed working sheet, seed 710236810", "IBM Plex Sans and IBM Plex Mono", "Pipeline-shaped learning map", "Restrained forest actions and teal details", "Warm incident entry panel", "Flat tonal layering without shadows"],
-    "rules": [
-      { "name": "Flat working surfaces", "body": "Use tint and thin borders to organize tasks. The implementation has no box-shadow vocabulary.", "section": "elevation" },
-      { "name": "Technical text stays legible", "body": "Reserve compact metadata for supporting details; retain readable exercise and article type.", "section": "typography" }
+    "keyCharacteristics": [
+      "Framed working sheet, seed 710236810",
+      "IBM Plex Sans and IBM Plex Mono",
+      "Pipeline-shaped learning map",
+      "Restrained forest actions and teal details",
+      "Warm incident entry panel",
+      "Flat tonal layering without shadows"
     ],
-    "dos": ["Preserve focus outlines and reduced-motion support.", "Reflow the pipeline and SQL selection at tablet widths.", "Show actual recorded progress.", "Label reference dialects and simulations honestly."],
-    "donts": ["Do not add decorative gradients or glass effects.", "Do not imply cloud synchronization or generative retrieval exists.", "Do not invent learner counts or proficiency claims.", "Do not rely on feedback color alone."]
+    "rules": [
+      {
+        "name": "Flat working surfaces",
+        "body": "Use tint and thin borders to organize tasks. The implementation has no box-shadow vocabulary.",
+        "section": "elevation"
+      },
+      {
+        "name": "Technical text stays legible",
+        "body": "Reserve compact metadata for supporting details; retain readable exercise and article type.",
+        "section": "typography"
+      }
+    ],
+    "dos": [
+      "Preserve focus outlines and reduced-motion support.",
+      "Reflow the pipeline and SQL selection at tablet widths.",
+      "Show actual recorded progress.",
+      "Label reference dialects and simulations honestly."
+    ],
+    "donts": [
+      "Do not add decorative gradients or glass effects.",
+      "Do not imply cloud synchronization or generative retrieval exists.",
+      "Do not invent learner counts or proficiency claims.",
+      "Do not rely on feedback color alone."
+    ]
   }
 }

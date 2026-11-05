@@ -1,15 +1,19 @@
+## Version 0.2 additions
+
+Dark/light/system themes, learning status labels, randomized/revised question options, recall/design/multi-select/sequencing practice,15 credential paths,3 executable Python exercises,22 tracks and13 project briefs (5 detailed career guides). Native desktop/Android packages remain deferred until user approval. See [integration setup](docs/INTEGRATION_SETUP.md) and [upgrade QA](docs/UPGRADE_QA.md).
+
 # Dataforge
 
 An Android-friendly data engineering practice app. Built with React, TypeScript, Vite, SQLite/sql.js and PostgreSQL/PGlite. The current release runs locally in the browser and can be installed as a PWA on supported Android browsers.
 
 ## Included
 
-- 20 learning tracks and 104 original multiple-choice questions, with explanations for every alternative.
+- 22 learning tracks and 122 original multiple-choice questions, with explanations for every alternative.
 - 30 executable SQL challenges in two genuine engines: SQLite and PostgreSQL. Four depths: Foundations, Intermediate, Advanced, Professional.
 - Eight dialect choices. MySQL, BigQuery, Snowflake, SQL Server/T-SQL, DuckDB and Spark SQL are clearly labeled study references, not fake engine modes.
 - Three seeded datasets per SQL submission, typed result comparison, duplicate preservation, ordering when required, and counterexample rows.
-- 40 field-guide entries, 77 external primary-source resources, bookmarks, personal notes, and local keyword search.
-- Six incident simulations containing 18 decisions, plus eight external capstone build briefs with saved checklists.
+- 46 field-guide entries, 91 external primary-source resources, bookmarks, personal notes, and local keyword search.
+- Six incident simulations containing 18 decisions, plus thirteen external capstone build briefs with saved checklists.
 - Daily sessions, spaced review, unique-solve XP, streaks without penalties, milestones, local query drafts, and validated JSON progress backups.
 - Versioned offline cache including both engines, self-hosted fonts and icons, responsive navigation and reduced-motion support.
 
@@ -69,7 +73,7 @@ Keep content IDs stable across updates or migrate saved progress explicitly. Run
 
 Read [the research](docs/RESEARCH.md), [system architecture](docs/ARCHITECTURE.md), [design system](DESIGN.md), [product contract](PRODUCT.md), and [QA evidence](QA_REPORT.md).
 
-The planned server architecture covers authenticated progress sync, a cited RAG tutor, versioned ingestion, retrieval evaluation, provenance and permissions, isolated Python/SQL runners, observability, and production rollout. The current field guide is deterministic keyword retrieval, **not generative RAG**. There is no connected LLM API, cloud database, remote sandbox or account system in this release. No API keys are needed or accepted by the client. Future credentials belong in server-side secret storage.
+The planned server architecture covers authenticated progress sync, a cited RAG tutor, versioned ingestion, retrieval evaluation, provenance and permissions, isolated Python/SQL runners, observability, and production rollout. The Llama tutor now retrieves local source excerpts and imported PDF/text before calling a configured companion server. Google Drive manual snapshots are implemented and require a public OAuth client ID and user consent. Python execution uses Pyodide in a browser worker; distributed practice supplies a local Kafka Compose recipe. Read docs/INTEGRATION_SETUP.md for exact setup and verification boundaries. No provider API key belongs in the browser. Real Llama inference, two-device Drive sync and Docker startup remain unverified until external setup.
 
 ## Deployment and rollback
 

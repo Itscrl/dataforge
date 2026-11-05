@@ -1,0 +1,3 @@
+import {chromium} from '@playwright/test';const b=await chromium.launch({channel:'chrome',headless:true});const context=await b.newContext({viewport:{width:390,height:900},reducedMotion:'reduce'});const p=await context.newPage();for(const r of ['certifications','tutor','sync','studio']){await p.goto('http://127.0.0.1:4173/#'+r);await p.locator('h1').waitFor();await p.getByLabel('Color theme').selectOption('dark');await p.waitForFunction(()=>document.documentElement.dataset.theme==='dark');await p.waitForTimeout(260);await p.screenshot({path:`qa/upgrade-${r}-390.png`,fullPage:false});}await b.close();
+
+

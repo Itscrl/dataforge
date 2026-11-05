@@ -9,15 +9,15 @@ Make the next useful practice session easy to start, and make its feedback worth
 ## Current experience
 
 - **Today:** a five-question daily mission, actual progress and streak data, suggested SQL challenges, and an incident entry point.
-- **Learning path:** 20 open tracks grouped into Foundation, Build, and Operate. The pipeline map connects these stages without locking learners into a sequence.
-- **Knowledge practice:** 104 authored questions, explanations, filtered practice, and review scheduling.
+- **Learning path:** 22 open tracks grouped into Foundation, Build, and Operate. The pipeline map connects these stages without locking learners into a sequence.
+- **Knowledge practice:** 122 authored questions, explanations, filtered practice, and review scheduling.
 - **SQL workbench:** 30 challenges across Foundations, Intermediate, Advanced, and Professional depths. PostgreSQL executes through PGlite and SQLite through sql.js in workers. Eight language choices include these two executable engines and six clearly marked reference curricula. The editor supports saved drafts, schema inspection, sample data, hints, solutions, result inspection, and grading against multiple datasets.
 - **Incident room:** six authored simulations with 18 decisions that connect evidence to operational judgment.
-- **Field guide and resource library:** 40 local guide entries and 77 curated resources, with search, bookmarks, notes, and source links where provided.
-- **Projects:** eight portfolio-oriented briefs with local completion checklists.
+- **Field guide and resource library:** 46 local guide entries and 91 curated resources, with search, bookmarks, notes, and source links where provided.
+- **Projects:** thirteen portfolio-oriented briefs with local completion checklists.
 - **Progress and settings:** attempts, XP, levels, review items, daily goal, personal settings, validated export/import, and local reset controls.
 
-Counts describe the release documented on 2026-11-05; the content modules and rendered counts remain authoritative as the collection changes.
+Counts describe the release documented on 2026-11-06; the content modules and rendered counts remain authoritative as the collection changes.
 
 ## Core journey
 
@@ -25,9 +25,9 @@ Choose a daily mission or a skill gap → answer a question or execute SQL → i
 
 ## Trust and boundaries
 
-Progress is saved in this browser on this device. Export/import provides a portable backup; there is no account service or cloud synchronization. Offline access depends on assets and engines having been cached. External resource pages require their own network access.
+Progress is saved in this browser on this device. Export/import provides a portable backup; Google Drive snapshot synchronization requires OAuth setup; no app account service is supplied. Offline access depends on assets and engines having been cached. External resource pages require their own network access.
 
-The field guide retrieves authored local content; it is not generative RAG. Reference dialects are study roadmaps, not simulated query execution. Python sandboxes, remote database runtimes, cloud services, and hosted AI generation are not implemented in this release. Incident exercises are simulations, not live infrastructure access.
+The Llama tutor retrieves local guide and imported PDF/text excerpts, then can generate cited answers through a configured local Ollama or compatible hosted service. Browser Python executes through Pyodide; it is trusted-user practice, not a hostile-code sandbox. Distributed labs supply local Docker instructions; remote runtimes are not provisioned. Drive OAuth and Llama runtime setup are required. Incident exercises are simulations, not live infrastructure access.
 
 XP, streaks, and completion markers support consistent learning. They must remain tied to recorded activity, with assisted attempts and unique completion rewards handled by the progress model. Never invent leaderboard participants, learner counts, testimonials, or mastery claims.
 

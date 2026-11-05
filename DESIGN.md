@@ -158,3 +158,7 @@ Panels use 12px corners; tracks use 10px; controls use 6px; navigation rows use 
 - **Don't** present reference mode, static guides, or simulated incidents as live services.
 - **Don't** remove focus rings, rely on color alone, or make secondary 11px metadata the model for main lesson text.
 - **Don't** add invented learner statistics, certification claims, or gamification disconnected from practice.
+
+## Version 0.2 themes and feedback
+
+The optional dark theme lives in src/upgrades.css: ground #16201c, surface #1e2923, raised #26352c, text #e2ebe3, muted #acbcb0, border #3b4b40, accent #94c8ac. System theme follows prefers-color-scheme; explicit light/dark choices persist. Background/color transitions take220ms; answer feedback uses a200ms clip reveal. Reduced-motion disables transitions/animations. Navigation is scrollable with the expanded tools. Dark mobile nav ink #b5c8bb, active #c3efd2. New components include evidence excerpts, resource status selects, certification checklists, Python editor, source-linked track actions and a manual snapshot conflict review.
