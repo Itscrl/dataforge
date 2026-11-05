@@ -1,0 +1,20 @@
+{
+  "checks": [
+    "App starts with truthful zero progress",
+    "Quiz explanations and progress survive reload",
+    "SQLite correct solution passes all datasets",
+    "Wrong SQL produces counterexample rows",
+    "Syntax/schema failures give debugging advice",
+    "PostgreSQL correct solution passes all datasets",
+    "Reference dialect cannot masquerade as executable",
+    "Field guide search and saved notes",
+    "Resource search and saved-only filter",
+    "Incident decision feedback",
+    "Project checklist and notes",
+    "Mobile navigation and 320/390/768/1440 reflow"
+  ],
+  "errors": [],
+  "accessibilityViolations": 0,
+  "date": "2026-11-05T12:16:03.353Z",
+  "base": "http://127.0.0.1:4173"
+}

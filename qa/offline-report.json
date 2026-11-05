@@ -1,0 +1,12 @@
+{
+  "checks": [
+    "Offline shell reload",
+    "PostgreSQL runs entirely offline",
+    "SQLite runs entirely offline",
+    "Unbounded query can be cancelled without freezing UI",
+    "Engine recovers after cancellation",
+    "Malformed import rejected",
+    "Progress export and validated restore"
+  ],
+  "date": "2026-11-05T12:19:18.818Z"
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "route": "today",
+    "violations": []
+  },
+  {
+    "route": "path",
+    "violations": []
+  },
+  {
+    "route": "practice",
+    "violations": []
+  },
+  {
+    "route": "sql",
+    "violations": []
+  },
+  {
+    "route": "incidents",
+    "violations": []
+  },
+  {
+    "route": "guide",
+    "violations": []
+  },
+  {
+    "route": "resources",
+    "violations": []
+  },
+  {
+    "route": "projects",
+    "violations": []
+  },
+  {
+    "route": "progress",
+    "violations": []
+  },
+  {
+    "route": "settings",
+    "violations": []
+  }
+]

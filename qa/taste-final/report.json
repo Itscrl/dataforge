@@ -1,0 +1,1802 @@
+{
+ "url": "http://127.0.0.1:4173",
+ "at": "2026-11-05T12:16:07.581Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 2,
+   "filled": [
+    0.86,
+    0.89
+   ],
+   "motion": {
+    "elements": 0,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 1231,
+     "screens": 1.4,
+     "words": 286,
+     "img": 0,
+     "video": 0,
+     "canvas": 0,
+     "svg": 40,
+     "sections": 5,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 0,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "A little practice. A stronger engineer.",
+     "words": 6,
+     "chars": 39,
+     "lines": 2,
+     "size": 36,
+     "vw": 2.5,
+     "font": "IBM Plex Sans",
+     "weight": 600,
+     "tracking": -0.03,
+     "leading": 1.22,
+     "top": 103,
+     "tag": "h1",
+     "kind": "heading",
+     "align": "left",
+     "position": "left"
+    },
+    "h1": {
+     "text": "A little practice. A stronger engineer.",
+     "words": 6,
+     "lines": 2,
+     "size": 36,
+     "font": "IBM Plex Sans"
+    },
+    "headings": [
+     {
+      "text": "A little practice. A stronger engineer.",
+      "words": 6,
+      "chars": 39,
+      "lines": 2,
+      "size": 36,
+      "vw": 2.5,
+      "font": "IBM Plex Sans",
+      "weight": 600,
+      "tracking": -0.028,
+      "leading": 1.22,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.23,
+      "top": 103,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Build the habit. Follow the evidence.",
+      "words": 6,
+      "chars": 37,
+      "lines": 2,
+      "size": 29,
+      "vw": 2,
+      "font": "IBM Plex Sans",
+      "weight": 600,
+      "tracking": -0.024,
+      "leading": 1.17,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.45,
+      "top": 324,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "0",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 29,
+      "vw": 2,
+      "font": "IBM Plex Sans",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.11,
+      "top": 324,
+      "tag": "strong",
+      "kind": "heading"
+     },
+     {
+      "text": "0",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 29,
+      "vw": 2,
+      "font": "IBM Plex Sans",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.11,
+      "top": 324,
+      "tag": "strong",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 4,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 1,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "IBM Plex Sans",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      11,
+      12,
+      13,
+      14,
+      16,
+      18,
+      23,
+      25,
+      29,
+      36
+     ],
+     "sizeCount": 10,
+     "notLoaded": [],
+     "body": {
+      "font": "IBM Plex Sans",
+      "size": 11,
+      "leading": 1.5,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 5.5
+     },
+     "measureChars": 56,
+     "max": {
+      "size": 36,
+      "vw": 2.5,
+      "font": "IBM Plex Sans",
+      "text": "A little practice."
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.03,
+     "smallText": 29
+    },
+    "eyebrows": [
+     {
+      "text": "Daily practice",
+      "above": "Build the habit. Follow the evidence.",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 281
+     }
+    ],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#eef2f1",
+     "bodyBgHsl": {
+      "h": 165,
+      "s": 0.13,
+      "l": 0.94
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#ffffff",
+       "top": 66,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#606c68",
+       "share": 0.44
+      },
+      {
+       "color": "#182724",
+       "share": 0.24
+      },
+      {
+       "color": "#6b685c",
+       "share": 0.07
+      },
+      {
+       "color": "#52615c",
+       "share": 0.06
+      },
+      {
+       "color": "#56675e",
+       "share": 0.06
+      }
+     ],
+     "button": {
+      "bg": "#ffffff",
+      "hsl": {
+       "h": 0,
+       "s": 0,
+       "l": 1
+      },
+      "fg": "#182724"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 3,
+     "inHero": 3,
+     "radius": 0,
+     "height": 45,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Skip to content",
+      "Today",
+      "Start today's session"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 4,
+     "hairlineSamples": [
+      "button.challenge-row 625px",
+      "button.challenge-row 625px",
+      "button.challenge-row 625px",
+      "footer.app-footer 1130px"
+     ],
+     "outlinedBoxes": 5,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 5,
+     "boxRadius": 12,
+     "squareMedia": 0,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 1,
+     "fixed": true,
+     "height": 900,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "ibm plex sans"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 1231,
+    "margins": {
+     "left": 265,
+     "right": 45
+    },
+    "sections": [
+     {
+      "sel": "div.page-heading",
+      "tag": "div",
+      "top": 103,
+      "height": 122,
+      "words": 17,
+      "media": 0,
+      "middle": 699,
+      "heading": {
+       "text": "A little practice.",
+       "size": 36,
+       "tag": "h1"
+      },
+      "left": 265,
+      "right": 45,
+      "textLeft": 265,
+      "textRight": 45,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "div.home-grid",
+      "tag": "div",
+      "top": 255,
+      "height": 328,
+      "words": 63,
+      "media": 0,
+      "middle": 132,
+      "heading": {
+       "text": "Build the habit.",
+       "size": 29,
+       "tag": "h2"
+      },
+      "left": 294,
+      "right": 77,
+      "textLeft": 294,
+      "textRight": 77,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section.route-section",
+      "tag": "section",
+      "top": 615,
+      "height": 201,
+      "words": 63,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Your path, from first query to production",
+       "size": 18,
+       "tag": "h2"
+      },
+      "left": 265,
+      "right": 45,
+      "textLeft": 265,
+      "textRight": 69,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "div.home-lower",
+      "tag": "div",
+      "top": 847,
+      "height": 273,
+      "words": 64,
+      "media": 0,
+      "middle": 49,
+      "heading": {
+       "text": "The pipeline is green.",
+       "size": 23,
+       "tag": "h2"
+      },
+      "left": 265,
+      "right": 70,
+      "textLeft": 265,
+      "textRight": 70,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "A little practice. A stronger engineer.",
+      "size": 36,
+      "top": 103,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 265,
+      "n": 4
+     },
+     {
+      "x": 294,
+      "n": 3
+     },
+     {
+      "x": 939,
+      "n": 2
+     },
+     {
+      "x": 330,
+      "n": 1
+     },
+     {
+      "x": 707,
+      "n": 1
+     },
+     {
+      "x": 1025,
+      "n": 1
+     },
+     {
+      "x": 1083,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 13,
+    "bodySize": 11,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0.06,
+    "voidBox": {
+     "x": 660,
+     "y": 120,
+     "w": 600,
+     "h": 120
+    }
+   },
+   "app": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "dark": false,
+    "ground": "#eef2f1",
+    "sidebar": {
+     "w": 228,
+     "tag": "aside",
+     "links": 11,
+     "share": 0.16
+    },
+    "topbar": {
+     "h": 66
+    },
+    "canvas": {
+     "left": 34,
+     "right": 44
+    },
+    "hero": {
+     "text": "A little practice. A stronger engineer.",
+     "words": 6,
+     "chars": 39,
+     "lines": 2,
+     "size": 36,
+     "vw": 2.5,
+     "font": "IBM Plex Sans",
+     "weight": 600,
+     "tracking": -0.03,
+     "leading": 1.22,
+     "top": 103,
+     "tag": "h1",
+     "kind": "heading",
+     "align": "left",
+     "position": "left"
+    },
+    "charts": 0,
+    "layout": {
+     "panels": 1,
+     "firstScreen": 1,
+     "ragged": [],
+     "voids": []
+    },
+    "tiles": 0,
+    "panels": {
+     "count": 5,
+     "radii": [
+      [
+       12,
+       4
+      ],
+      [
+       16,
+       1
+      ]
+     ],
+     "heavyBorders": 0,
+     "borderSamples": [],
+     "heavyShadows": 0,
+     "softShadows": 0,
+     "shadowSamples": [],
+     "glass": 0
+    },
+    "chips": {
+     "count": 0,
+     "hues": 0,
+     "samples": []
+    },
+    "numbers": {
+     "cells": 0,
+     "leftAligned": 0,
+     "figures": 2,
+     "tabularShare": 0,
+     "kpiMax": 11
+    },
+    "rows": null,
+    "chartHues": 0,
+    "placeholders": [],
+    "type": {
+     "under13": 0.58,
+     "tiny": 0,
+     "tinySamples": [],
+     "sizes": [
+      11,
+      12,
+      13,
+      14,
+      16,
+      18,
+      23,
+      25,
+      29,
+      36
+     ]
+    },
+    "title": {
+     "text": "A little practice.\nA stronger engineer.",
+     "size": 36,
+     "top": 103
+    },
+    "colourShare": 0
+   },
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 2,
+   "filled": [
+    0.78,
+    0.81
+   ],
+   "motion": {
+    "elements": 0,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 1862,
+     "screens": 1.8,
+     "words": 278,
+     "img": 0,
+     "video": 0,
+     "canvas": 0,
+     "svg": 40,
+     "sections": 5,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 0,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "A little practice. A stronger engineer.",
+     "words": 6,
+     "chars": 39,
+     "lines": 2,
+     "size": 32,
+     "vw": 4.2,
+     "font": "IBM Plex Sans",
+     "weight": 600,
+     "tracking": -0.03,
+     "leading": 1.22,
+     "top": 92,
+     "tag": "h1",
+     "kind": "heading",
+     "align": "left",
+     "position": "left"
+    },
+    "h1": {
+     "text": "A little practice. A stronger engineer.",
+     "words": 6,
+     "lines": 2,
+     "size": 32,
+     "font": "IBM Plex Sans"
+    },
+    "headings": [
+     {
+      "text": "A little practice. A stronger engineer.",
+      "words": 6,
+      "chars": 39,
+      "lines": 2,
+      "size": 32,
+      "vw": 4.2,
+      "font": "IBM Plex Sans",
+      "weight": 600,
+      "tracking": -0.031,
+      "leading": 1.22,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.44,
+      "top": 92,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Build the habit.Follow the evidence.",
+      "words": 5,
+      "chars": 36,
+      "lines": 1,
+      "size": 26,
+      "vw": 3.4,
+      "font": "IBM Plex Sans",
+      "weight": 600,
+      "tracking": -0.027,
+      "leading": 1.17,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.61,
+      "top": 304,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "0",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 29,
+      "vw": 3.8,
+      "font": "IBM Plex Sans",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.13,
+      "top": 594,
+      "tag": "strong",
+      "kind": "heading"
+     },
+     {
+      "text": "0",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 29,
+      "vw": 3.8,
+      "font": "IBM Plex Sans",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.13,
+      "top": 594,
+      "tag": "strong",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 4,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 1,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "IBM Plex Sans",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      18,
+      23,
+      26,
+      29,
+      32
+     ],
+     "sizeCount": 11,
+     "notLoaded": [],
+     "body": {
+      "font": "IBM Plex Sans",
+      "size": 11,
+      "leading": 1.5,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 5.5
+     },
+     "measureChars": 56,
+     "max": {
+      "size": 32,
+      "vw": 4.2,
+      "font": "IBM Plex Sans",
+      "text": "A little practice."
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.01,
+     "smallText": 33
+    },
+    "eyebrows": [
+     {
+      "text": "Daily practice",
+      "above": "Build the habit.Follow the evidence.",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 261
+     }
+    ],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#eef2f1",
+     "bodyBgHsl": {
+      "h": 165,
+      "s": 0.13,
+      "l": 0.94
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#ffffff",
+       "top": 66,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#606c68",
+       "share": 0.42
+      },
+      {
+       "color": "#182724",
+       "share": 0.24
+      },
+      {
+       "color": "#6b685c",
+       "share": 0.07
+      },
+      {
+       "color": "#52615c",
+       "share": 0.07
+      },
+      {
+       "color": "#56675e",
+       "share": 0.06
+      }
+     ],
+     "button": {
+      "bg": "#ffffff",
+      "hsl": {
+       "h": 0,
+       "s": 0,
+       "l": 1
+      },
+      "fg": "#182724"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 3,
+     "inHero": 3,
+     "radius": 0,
+     "height": 45,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Skip to content",
+      "Today",
+      "Start today's session"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 6,
+     "hairlineSamples": [
+      "button.pipeline-stage 522px",
+      "button.pipeline-stage 522px",
+      "button.challenge-row 524px",
+      "button.challenge-row 524px",
+      "button.challenge-row 524px"
+     ],
+     "outlinedBoxes": 5,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 5,
+     "boxRadius": 12,
+     "squareMedia": 0,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 1,
+     "fixed": true,
+     "height": 1024,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "ibm plex sans"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 1862,
+    "margins": {
+     "left": 213,
+     "right": 31
+    },
+    "sections": [
+     {
+      "sel": "div.home-grid",
+      "tag": "div",
+      "top": 234,
+      "height": 509,
+      "words": 63,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Build the habit.",
+       "size": 26,
+       "tag": "h2"
+      },
+      "left": 234,
+      "right": 58,
+      "textLeft": 234,
+      "textRight": 58,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section.route-section",
+      "tag": "section",
+      "top": 775,
+      "height": 379,
+      "words": 63,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Your path, from first query to production",
+       "size": 18,
+       "tag": "h2"
+      },
+      "left": 213,
+      "right": 31,
+      "textLeft": 213,
+      "textRight": 55,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "div.home-lower",
+      "tag": "div",
+      "top": 1186,
+      "height": 541,
+      "words": 64,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "The pipeline is green.",
+       "size": 23,
+       "tag": "h2"
+      },
+      "left": 213,
+      "right": 31,
+      "textLeft": 213,
+      "textRight": 55,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "A little practice. A stronger engineer.",
+      "size": 32,
+      "top": 92,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 234,
+      "n": 5
+     },
+     {
+      "x": 213,
+      "n": 4
+     },
+     {
+      "x": 265,
+      "n": 3
+     },
+     {
+      "x": 414,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 13,
+    "bodySize": 11,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "dark": false,
+    "ground": "#eef2f1",
+    "sidebar": {
+     "w": 190,
+     "tag": "aside",
+     "links": 11,
+     "share": 0.25
+    },
+    "topbar": {
+     "h": 66
+    },
+    "canvas": {
+     "left": 23,
+     "right": 31
+    },
+    "hero": {
+     "text": "A little practice. A stronger engineer.",
+     "words": 6,
+     "chars": 39,
+     "lines": 2,
+     "size": 32,
+     "vw": 4.2,
+     "font": "IBM Plex Sans",
+     "weight": 600,
+     "tracking": -0.03,
+     "leading": 1.22,
+     "top": 92,
+     "tag": "h1",
+     "kind": "heading",
+     "align": "left",
+     "position": "left"
+    },
+    "charts": 0,
+    "layout": {
+     "panels": 1,
+     "firstScreen": 1,
+     "ragged": [],
+     "voids": []
+    },
+    "tiles": 0,
+    "panels": {
+     "count": 8,
+     "radii": [
+      [
+       12,
+       4
+      ],
+      [
+       0,
+       3
+      ],
+      [
+       16,
+       1
+      ]
+     ],
+     "heavyBorders": 0,
+     "borderSamples": [],
+     "heavyShadows": 0,
+     "softShadows": 0,
+     "shadowSamples": [],
+     "glass": 0
+    },
+    "chips": {
+     "count": 0,
+     "hues": 0,
+     "samples": []
+    },
+    "numbers": {
+     "cells": 0,
+     "leftAligned": 0,
+     "figures": 2,
+     "tabularShare": 0,
+     "kpiMax": 11
+    },
+    "rows": null,
+    "chartHues": 0,
+    "placeholders": [],
+    "type": {
+     "under13": 0.64,
+     "tiny": 0,
+     "tinySamples": [],
+     "sizes": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      18,
+      23,
+      26,
+      32
+     ]
+    },
+    "title": {
+     "text": "A little practice.\nA stronger engineer.",
+     "size": 32,
+     "top": 92
+    },
+    "colourShare": 0.001
+   },
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 3,
+   "filled": [
+    0.97,
+    0.99,
+    0.99
+   ],
+   "motion": {
+    "elements": 0,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 2126,
+     "screens": 2.5,
+     "words": 248,
+     "img": 0,
+     "video": 0,
+     "canvas": 0,
+     "svg": 40,
+     "sections": 5,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 0,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "A little practice. A stronger engineer.",
+     "words": 6,
+     "chars": 39,
+     "lines": 2,
+     "size": 31,
+     "vw": 7.9,
+     "font": "IBM Plex Sans",
+     "weight": 600,
+     "tracking": -0.03,
+     "leading": 1.22,
+     "top": 82,
+     "tag": "h1",
+     "kind": "heading",
+     "align": "left",
+     "position": "left"
+    },
+    "h1": {
+     "text": "A little practice. A stronger engineer.",
+     "words": 6,
+     "lines": 2,
+     "size": 31,
+     "font": "IBM Plex Sans"
+    },
+    "headings": [
+     {
+      "text": "A little practice. A stronger engineer.",
+      "words": 6,
+      "chars": 39,
+      "lines": 2,
+      "size": 31,
+      "vw": 7.9,
+      "font": "IBM Plex Sans",
+      "weight": 600,
+      "tracking": -0.029,
+      "leading": 1.22,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.81,
+      "top": 82,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Build the habit. Follow the evidence.",
+      "words": 6,
+      "chars": 37,
+      "lines": 2,
+      "size": 27,
+      "vw": 6.9,
+      "font": "IBM Plex Sans",
+      "weight": 600,
+      "tracking": -0.026,
+      "leading": 1.17,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.77,
+      "top": 282,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "0",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 29,
+      "vw": 7.4,
+      "font": "IBM Plex Sans",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.04,
+      "top": 637,
+      "tag": "strong",
+      "kind": "heading"
+     },
+     {
+      "text": "0",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 29,
+      "vw": 7.4,
+      "font": "IBM Plex Sans",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.04,
+      "top": 637,
+      "tag": "strong",
+      "kind": "heading"
+     },
+     {
+      "text": "The pipeline is green. The numbers are wrong.",
+      "words": 8,
+      "chars": 45,
+      "lines": 2,
+      "size": 24,
+      "vw": 6.2,
+      "font": "IBM Plex Sans",
+      "weight": 600,
+      "tracking": -0.012,
+      "leading": 1.22,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.78,
+      "top": 1759,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 5,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 6,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "IBM Plex Sans",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      24,
+      27,
+      29,
+      31
+     ],
+     "sizeCount": 11,
+     "notLoaded": [],
+     "body": {
+      "font": "IBM Plex Sans",
+      "size": 11,
+      "leading": 1.5,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 5.5
+     },
+     "measureChars": 51,
+     "max": {
+      "size": 31,
+      "vw": 7.9,
+      "font": "IBM Plex Sans",
+      "text": "A little practice."
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.02,
+     "smallText": 25
+    },
+    "eyebrows": [
+     {
+      "text": "Daily practice",
+      "above": "Build the habit. Follow the evidence.",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 11,
+      "top": 242
+     },
+     {
+      "text": "6 case studies",
+      "above": "The pipeline is green. The numbers are w",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 1721
+     }
+    ],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#eef2f1",
+     "bodyBgHsl": {
+      "h": 165,
+      "s": 0.13,
+      "l": 0.94
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#ffffff",
+       "top": 56,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      },
+      {
+       "color": "#f1f5f2",
+       "top": 218,
+       "hsl": {
+        "h": 135,
+        "s": 0.17,
+        "l": 0.95
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#606c68",
+       "share": 0.42
+      },
+      {
+       "color": "#182724",
+       "share": 0.26
+      },
+      {
+       "color": "#6b685c",
+       "share": 0.08
+      },
+      {
+       "color": "#56675e",
+       "share": 0.07
+      },
+      {
+       "color": "#315c4d",
+       "share": 0.03
+      }
+     ],
+     "button": {
+      "bg": "#ffffff",
+      "hsl": {
+       "h": 0,
+       "s": 0,
+       "l": 1
+      },
+      "fg": "#182724"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 2,
+     "inHero": 2,
+     "radius": 0,
+     "height": 45,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Skip to content",
+      "Start today's session"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 7,
+     "hairlineSamples": [
+      "button.pipeline-stage 348px",
+      "button.pipeline-stage 348px",
+      "button.challenge-row 350px",
+      "button.challenge-row 350px",
+      "button.challenge-row 350px"
+     ],
+     "outlinedBoxes": 4,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 4,
+     "boxRadius": 12,
+     "squareMedia": 0,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 0,
+     "fixed": true,
+     "height": 0,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "ibm plex sans"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 2126,
+    "margins": {
+     "left": 20,
+     "right": 20
+    },
+    "sections": [
+     {
+      "sel": "div.home-grid",
+      "tag": "div",
+      "top": 218,
+      "height": 633,
+      "words": 61,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Build the habit.",
+       "size": 27,
+       "tag": "h2"
+      },
+      "left": 41,
+      "right": 44,
+      "textLeft": 41,
+      "textRight": 44,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section.route-section",
+      "tag": "section",
+      "top": 878,
+      "height": 494,
+      "words": 63,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Your path, from first query to production",
+       "size": 17,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 21,
+      "textLeft": 20,
+      "textRight": 51,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "div.home-lower",
+      "tag": "div",
+      "top": 1399,
+      "height": 542,
+      "words": 64,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "The pipeline is green.",
+       "size": 24,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 25,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "A little practice. A stronger engineer.",
+      "size": 31,
+      "top": 82,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 41,
+      "n": 5
+     },
+     {
+      "x": 20,
+      "n": 4
+     },
+     {
+      "x": 78,
+      "n": 3
+     }
+    ],
+    "leftBlocks": 12,
+    "bodySize": 11,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "dark": false,
+    "ground": "#eef2f1",
+    "sidebar": null,
+    "topbar": {
+     "h": 56
+    },
+    "canvas": {
+     "left": 20,
+     "right": 20
+    },
+    "hero": {
+     "text": "A little practice. A stronger engineer.",
+     "words": 6,
+     "chars": 39,
+     "lines": 2,
+     "size": 31,
+     "vw": 7.9,
+     "font": "IBM Plex Sans",
+     "weight": 600,
+     "tracking": -0.03,
+     "leading": 1.22,
+     "top": 82,
+     "tag": "h1",
+     "kind": "heading",
+     "align": "left",
+     "position": "left"
+    },
+    "charts": 0,
+    "layout": {
+     "panels": 5,
+     "firstScreen": 2,
+     "ragged": [],
+     "voids": []
+    },
+    "tiles": 0,
+    "panels": {
+     "count": 7,
+     "radii": [
+      [
+       12,
+       3
+      ],
+      [
+       0,
+       3
+      ],
+      [
+       10,
+       1
+      ]
+     ],
+     "heavyBorders": 0,
+     "borderSamples": [],
+     "heavyShadows": 0,
+     "softShadows": 0,
+     "shadowSamples": [],
+     "glass": 0
+    },
+    "chips": {
+     "count": 0,
+     "hues": 0,
+     "samples": []
+    },
+    "numbers": {
+     "cells": 0,
+     "leftAligned": 0,
+     "figures": 2,
+     "tabularShare": 0,
+     "kpiMax": 11
+    },
+    "rows": null,
+    "chartHues": 0,
+    "placeholders": [],
+    "type": {
+     "under13": 0.62,
+     "tiny": 0,
+     "tinySamples": [],
+     "sizes": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      23,
+      24,
+      27,
+      31
+     ]
+    },
+    "title": {
+     "text": "A little practice.\nA stronger engineer.",
+     "size": 31,
+     "top": 82
+    },
+    "colourShare": 0.001
+   },
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "WARN",
+   "id": "tiny-text",
+   "width": 1440,
+   "message": "58% of the text is under 13px.",
+   "fix": "Data and labels read at 13–14px; keep 11–12px for sublines and axis ticks.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "app-title-size",
+   "width": 1440,
+   "message": "The h1 is 36px (\"A little practice.\nA stronger engineer.\").",
+   "fix": "An app screen is not a landing page: the title is 18-32px (20-24px on a phone).",
+   "alsoAt": [
+    390
+   ]
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "C:\\data_engineering_project\\Data_engineering_app\\qa\\taste-final\\desktop-fold.jpg",
+   "pages": [
+    "C:\\data_engineering_project\\Data_engineering_app\\qa\\taste-final\\desktop-page-01.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "C:\\data_engineering_project\\Data_engineering_app\\qa\\taste-final\\tablet-fold.jpg",
+   "pages": [
+    "C:\\data_engineering_project\\Data_engineering_app\\qa\\taste-final\\tablet-page-01.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "C:\\data_engineering_project\\Data_engineering_app\\qa\\taste-final\\mobile-fold.jpg",
+   "pages": [
+    "C:\\data_engineering_project\\Data_engineering_app\\qa\\taste-final\\mobile-page-01.jpg"
+   ],
+   "film": []
+  }
+ ]
+}

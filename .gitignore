@@ -1,0 +1,9 @@
+node_modules/
+.pnpm-store/
+dist/
+*.tar.gz
+.env*
+!.env.example
+test-results/
+playwright-report/
+.taste-skill/screenshots/

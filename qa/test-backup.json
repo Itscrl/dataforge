@@ -1,0 +1,52 @@
+{
+  "version": 1,
+  "name": "Engineer",
+  "goal": 3,
+  "attempts": [
+    {
+      "item": "paid-orders",
+      "track": "sql",
+      "kind": "sql",
+      "correct": true,
+      "assisted": false,
+      "dialect": "postgres",
+      "id": "0f4c13ff-86e0-461f-aeeb-45fd71b5efe7",
+      "at": "2026-11-05T12:19:17.996Z"
+    },
+    {
+      "item": "paid-orders",
+      "track": "sql",
+      "kind": "sql",
+      "correct": true,
+      "assisted": false,
+      "dialect": "sqlite",
+      "id": "93c40572-259a-4a9a-a1c6-d1c46a0727c3",
+      "at": "2026-11-05T12:19:18.312Z"
+    },
+    {
+      "item": "paid-orders",
+      "track": "sql",
+      "kind": "sql",
+      "correct": true,
+      "assisted": false,
+      "dialect": "sqlite",
+      "id": "3d791778-5943-4cb7-aabd-382e290626f9",
+      "at": "2026-11-05T12:19:18.499Z"
+    }
+  ],
+  "reviews": {
+    "paid-orders": {
+      "due": "2026-11-09T12:19:18.499Z",
+      "interval": 4,
+      "correct": 3,
+      "wrong": 0
+    }
+  },
+  "bookmarks": [],
+  "projectSteps": [],
+  "notes": {},
+  "drafts": {
+    "postgres:paid-orders": "SELECT order_id, amount FROM orders WHERE status='paid'",
+    "sqlite:paid-orders": "SELECT order_id, amount FROM orders WHERE status='paid'"
+  }
+}
