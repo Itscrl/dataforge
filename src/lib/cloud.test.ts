@@ -1,0 +1,14 @@
+import {it,expect} from 'vitest';import initSqlJs from 'sql.js';import {handleProgress,type CloudEnvironment} from '../../worker/cloud';import {fresh} from './progress';
+it('isolates account snapshots and rejects stale writes and cross-origin saves',async()=>{const SQL=await initSqlJs();const db=new SQL.Database();db.run('CREATE TABLE user_progress(user_id TEXT PRIMARY KEY,revision INTEGER NOT NULL,payload TEXT NOT NULL,updated_at TEXT NOT NULL)');const env={DB:{prepare:(sql:string)=>({bind:(...args:unknown[])=>({first:async()=>{const stmt=db.prepare(sql);try{stmt.bind(args as any);return stmt.step()?stmt.getAsObject():null;}finally{stmt.free();}}})})}} as unknown as CloudEnvironment;
+ const request=(user:string,method='GET',payload?:unknown,origin='https://app.example')=>new Request('https://app.example/api/progress',{method,headers:{...(user?{'oai-authenticated-user-id':user}:{}),Origin:origin,'Content-Type':'application/json'},...(payload?{body:JSON.stringify(payload)}:{})});
+ expect((await handleProgress(request(''),env)).status).toBe(401);
+ expect(await (await handleProgress(request('alice'),env)).json()).toEqual({revision:0,progress:null});
+ const p=fresh();p.notes.test='Private to Alice';
+ expect((await handleProgress(request('alice','POST',{revision:0,progress:p}),env)).status).toBe(200);
+ expect((await (await handleProgress(request('alice'),env)).json()).progress.notes.test).toBe('Private to Alice');
+ expect((await (await handleProgress(request('bob'),env)).json()).progress).toBe(null);
+ expect((await handleProgress(request('alice','POST',{revision:0,progress:p}),env)).status).toBe(409);
+ expect((await handleProgress(request('alice','POST',{revision:1,progress:p},'https://attacker.example'),env)).status).toBe(403);
+ expect((await handleProgress(request('alice','POST',{revision:1,progress:{}}),env)).status).toBe(400);
+ expect((await (await handleProgress(request('alice','POST',{revision:1,progress:p}),env)).json()).revision).toBe(2);db.close();
+});
