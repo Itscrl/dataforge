@@ -1,0 +1,10 @@
+{
+  "checks": [
+    "PDF ingestion preserves physical page count",
+    "PDF bytes and page index persist in IndexedDB",
+    "Retrieved result opens the actual original PDF page",
+    "Structured answer citations map to matching quotes and physical pages (mock model)"
+  ],
+  "errors": [],
+  "violations": []
+}
