@@ -56,4 +56,4 @@ function App(){
 }
 class ErrorBoundary extends React.Component<{children:ReactNode},{error:boolean}>{state={error:false};static getDerivedStateFromError(){return {error:true};}render(){return this.state.error?<div className="fatal"><h1>Something interrupted the workspace.</h1><p>Your saved progress is still in this browser. Reload to try again.</p><button className="primary" onClick={()=>location.reload()}>Reload Dataforge</button></div>:this.props.children;}}
 createRoot(document.getElementById('root')!).render(<React.StrictMode><ErrorBoundary><App/></ErrorBoundary></React.StrictMode>);
-if('serviceWorker' in navigator&&import.meta.env.PROD)window.addEventListener('load',()=>{navigator.serviceWorker.register('/sw.js').catch(()=>{/* Settings explains that offline availability depends on cache. */});});
+if('serviceWorker' in navigator&&import.meta.env.PROD&&location.hostname!=='appassets.androidplatform.net')window.addEventListener('load',()=>{navigator.serviceWorker.register('/sw.js').catch(()=>{/* Settings explains that offline availability depends on cache. */});});

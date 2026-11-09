@@ -8,3 +8,11 @@ test-results/
 playwright-report/
 .taste-skill/screenshots/
 *.tsbuildinfo
+
+android/.gradle/
+android/local.properties
+android/**/build/
+android/app/src/main/assets/
+*.apk
+*.jks
+*.keystore
