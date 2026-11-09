@@ -1,3 +1,7 @@
+## Learning roadmap
+
+24 expandable milestones cover architecture, pipeline modeling, orchestration, operations and advanced practice. Save a learning status and evidence notes for each point; follow verified publisher links, a freeCodeCamp video and project exercises. Read the [roadmap behavior](docs/ROADMAP.md) and [research sources](docs/ROADMAP_SOURCES.md).
+
 ## Version0.3 research and account sync
 
 The neutral-charcoal research workspace preserves PDF page, hash and quote provenance; a cancellable BM25 worker retrieves before structured generation. Account-based cloud snapshots use authenticated Sites identity and D1 with stale-write protection. Google Drive remains optional. Read [RAG architecture](docs/RAG_ARCHITECTURE.md), [operations](docs/RAG_OPERATIONS.md) and [verification](docs/RESEARCH_QA.md). Real Llama inference still requires an installed/configured model.
