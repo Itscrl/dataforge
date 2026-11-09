@@ -16,3 +16,6 @@ android/app/src/main/assets/
 *.apk
 *.jks
 *.keystore
+
+.android-signing/
+releases/*.idsig

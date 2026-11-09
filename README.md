@@ -1,3 +1,7 @@
+## Android APK
+
+Android packaging is available for personal installation. Read [Android release and build instructions](docs/ANDROID_RELEASE.md) and the [complete usage and RAG guide](docs/USER_GUIDE.md). The local APK keeps separate progress; export/import transfers it from the hosted app.
+
 ## Learning roadmap
 
 24 expandable milestones cover architecture, pipeline modeling, orchestration, operations and advanced practice. Save a learning status and evidence notes for each point; follow verified publisher links, a freeCodeCamp video and project exercises. Read the [roadmap behavior](docs/ROADMAP.md) and [research sources](docs/ROADMAP_SOURCES.md).
